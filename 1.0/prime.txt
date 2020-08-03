@@ -1,0 +1,27 @@
+package
+_isprime:
+;0.data=arg
+;0.data=ret
+;0=composite
+;1=prime
+;2=error
+sqrtm 4 0
+add 4 1
+set 8 2
+L1:
+jem 8 4 L4
+L2:
+mov 12 0
+div 12 *8
+mul 12 *8
+jem 12 0 L3
+inc 8
+jmp L1
+L3:
+set 0 0
+ret
+L4:
+set 0 1
+ret
+set 0 2
+ret

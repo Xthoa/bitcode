@@ -1,0 +1,16 @@
+bits 32
+input 0
+input 4
+mov 8 0
+add 8 *4
+print 8
+mov 8 0
+sub 8 *4
+print 8
+mov 8 0
+mul 8 *4
+print 8
+mov 8 0
+div 8 *4
+print 8
+exit

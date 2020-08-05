@@ -1,0 +1,12 @@
+jmp entry
+func:
+pause
+mov 4 0
+print 4
+ret
+entry:
+set 0 1
+call func
+set 0 24
+call func
+exit

@@ -1,0 +1,7 @@
+;t11
+importn 1
+set 0 20
+callpkg 1 0
+set 0 50
+callpkg 1 0
+exit

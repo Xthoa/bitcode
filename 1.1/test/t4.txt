@@ -1,0 +1,12 @@
+;t4.txt
+bits 32
+pause
+seted 1
+set 0 20
+L0:
+print 0
+sub 0 4
+jg 0 L0
+or 0 12
+print 0
+exit

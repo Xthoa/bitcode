@@ -1,0 +1,6 @@
+bits 32
+set 0 5
+push 10
+pop 0
+print 0
+exit

@@ -1,0 +1,17 @@
+importn 0
+input 4
+set 8 2
+L1:
+jgm 8 4 L5
+L2:
+mov 0 8
+callpkg 1 1
+jne 0 1 L4
+L3:
+print 8
+L4:
+inc 8
+jmp L1
+L5:
+putsl ";"
+exit

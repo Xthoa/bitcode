@@ -1,0 +1,7 @@
+package
+align 4
+global putispc
+putispc:
+print 0
+putsl " "
+ret

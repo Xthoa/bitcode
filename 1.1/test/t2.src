@@ -1,0 +1,10 @@
+nop
+pause
+int 3
+shell 'echo'
+pause
+script python
+	'test.py'
+	"print('Hello world!')"
+pause
+exit

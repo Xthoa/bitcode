@@ -1,0 +1,5 @@
+importn 0
+input 0
+callpkg 1 1
+print 0
+exit

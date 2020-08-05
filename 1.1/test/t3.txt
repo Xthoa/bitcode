@@ -1,0 +1,8 @@
+bits 32
+pause
+set 0 5
+label:
+dec 0
+print 0
+jg 0 label
+exit
